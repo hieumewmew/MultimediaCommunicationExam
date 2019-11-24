@@ -64,7 +64,6 @@ def cyclic_Conv(X, Y):
 print('linear convolution', linear_Conv(X, Y))    
 print('cyclic convolution', cyclic_Conv(X, Y))
 linear_convolve_csipy = signal.convolve(X, Y, mode='full', method='direct')
-cyclic_convolve_scipy = signal.convolve(X, Y, mode='same', method='direct')
 print('linear convolve csipy: ', linear_convolve_csipy)
-print('cyclic convolve scipy: ', cyclic_convolve_scipy)
-print(np.sum(cyclic_convolve_scipy))
+
+# scipy don't have function to calculate directly cyclic convolution
