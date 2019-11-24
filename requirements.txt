@@ -1,0 +1,7 @@
+spicy==0.16.0  
+wave
+struct
+os
+math
+numpy
+matplotlib
