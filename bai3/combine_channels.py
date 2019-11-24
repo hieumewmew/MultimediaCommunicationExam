@@ -9,4 +9,4 @@ A_image = cv2.cvtColor(cv2.imread('test_A.jpg'), cv2.COLOR_BGR2GRAY)
 
 image = np.array([R_image, G_image, B_image, A_image]).transpose(1,2,0)
 print(image.shape)
-cv2.imwrite('image_combined.jpg', image)
+

@@ -5,3 +5,4 @@ os
 math
 numpy
 matplotlib
+PIL hay pillow
